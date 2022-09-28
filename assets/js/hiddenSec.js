@@ -3,6 +3,8 @@ $(document).ready(function(){
     //SECTION ISI ARTIKEL
     $('#flora').hide();
     $('#boxFlora').click(function(){
+        $('#fauna').hide();
+        $('#wisata').hide();
         $('#flora').show();
         $('html, body').animate({
             scrollTop: $("#flora").offset().top
@@ -11,6 +13,8 @@ $(document).ready(function(){
 
     $('#fauna').hide();
     $('#boxFauna').click(function(){
+        $('#flora').hide();
+        $('#wisata').hide();
         $('#fauna').show();
         $('html, body').animate({
             scrollTop: $("#fauna").offset().top
@@ -19,6 +23,8 @@ $(document).ready(function(){
 
     $('#wisata').hide();
     $('#boxWisata').click(function(){
+        $('#flora').hide();
+        $('#fauna').hide();
         $('#wisata').show();
         $('html, body').animate({
             scrollTop: $("#wisata").offset().top
