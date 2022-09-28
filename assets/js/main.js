@@ -290,3 +290,19 @@
   new PureCounter();
 
 })()
+
+$(document).ready(function(){
+  //Pertama sembunyikan section
+        $('.gambar').hide();        
+
+  //Ketika elemen class tampil di klik maka elemen class gambar tampil
+        $('.tampil').click(function(){
+          $('.gambar').show();
+        });
+
+  //Ketika elemen class sembunyi di klik maka elemen class gambar sembunyi
+        $('.sembunyi').click(function(){
+          //Sembunyikan elemen class gambar
+          $('.gambar').hide();        
+        });
+ });
