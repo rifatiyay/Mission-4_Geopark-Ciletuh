@@ -10,7 +10,7 @@ $(document).ready(function(){
     $('#bungabangkai').hide();
     $('#boxBungabangkai').click(function(){
         $('#bungabangkai').show();
-        $('html, body').animate({
+        $("html, body").animate({
             scrollTop: $("#flora").offset().top
         }, 2000);
     })
