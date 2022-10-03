@@ -37,7 +37,7 @@ $(document).ready(function(){
     $('#boxBungabangkai').click(function(){
         $('#bungabangkai').show();
         $("html, body").animate({
-            scrollTop: $("#flora").offset().top
+            scrollTop: $("bungabangkai").offset().top
         }, 2000);
 
         $('#pohonsantigi').hide();
@@ -62,7 +62,7 @@ $(document).ready(function(){
     $('#boxPohonSantigi').click(function(){
         $('#pohonsantigi').show();
         $("html, body").animate({
-            scrollTop: $("#flora").offset().top
+            scrollTop: $("#pohonsantigi").offset().top
         }, 2000);
 
         $('#bungabangkai').hide();
@@ -87,7 +87,7 @@ $(document).ready(function(){
     $('#boxPadi').click(function(){
         $('#padi').show();
         $("html, body").animate({
-            scrollTop: $("#flora").offset().top
+            scrollTop: $("#padi").offset().top
         }, 2000);
 
         $('#bungabangkai').hide();
@@ -112,7 +112,7 @@ $(document).ready(function(){
     $('#boxBungaMatahari').click(function(){
         $('#BMatahari').show();
         $("html, body").animate({
-            scrollTop: $("#flora").offset().top
+            scrollTop: $("#BMatahari").offset().top
         }, 2000);
 
         $('#bungabangkai').hide();
@@ -136,9 +136,9 @@ $(document).ready(function(){
     $('#Mangrove').hide();
     $('#boxMangrove').click(function(){
         $('#Mangrove').show();
-        // $("html, body").animate({
-        //     scrollTop: $("#flora").offset().top
-        // }, 2000);
+        $("html, body").animate({
+            scrollTop: $("#Mangrove").offset().top
+        }, 2000);
 
         $('#bungabangkai').hide();
         $('#pohonsantigi').hide();
@@ -163,9 +163,9 @@ $(document).ready(function(){
     $('#bantengjawa').hide();
     $('#BoxBantengJawa').click(function(){
         $('#bantengjawa').show();
-        // $("html, body").animate({
-        //     scrollTop: $("#flora").offset().top
-        // }, 2000);
+        $("html, body").animate({
+            scrollTop: $("#bantengjawa").offset().top
+        }, 2000);
 
         $('#bungabangkai').hide();
         $('#pohonsantigi').hide();
@@ -188,9 +188,9 @@ $(document).ready(function(){
     $('#burungjulang').hide();
     $('#BoxJulangEmas').click(function(){
         $('#burungjulang').show();
-        // $("html, body").animate({
-        //     scrollTop: $("#flora").offset().top
-        // }, 2000);
+        $("html, body").animate({
+            scrollTop: $("#burungjulang").offset().top
+        }, 2000);
 
         $('#bungabangkai').hide();
         $('#pohonsantigi').hide();
@@ -213,9 +213,9 @@ $(document).ready(function(){
     $('#babun').hide();
     $('#BoxBabun').click(function(){
         $('#babun').show();
-        // $("html, body").animate({
-        //     scrollTop: $("#flora").offset().top
-        // }, 2000);
+        $("html, body").animate({
+            scrollTop: $("#babun").offset().top
+        }, 2000);
 
         $('#bungabangkai').hide();
         $('#pohonsantigi').hide();
@@ -238,9 +238,9 @@ $(document).ready(function(){
     $('#katak').hide();
     $('#BoxKatak').click(function(){
         $('#katak').show();
-        // $("html, body").animate({
-        //     scrollTop: $("#flora").offset().top
-        // }, 2000);
+        $("html, body").animate({
+            scrollTop: $("#katak").offset().top
+        }, 2000);
 
         $('#bungabangkai').hide();
         $('#pohonsantigi').hide();
@@ -263,9 +263,9 @@ $(document).ready(function(){
     $('#ikantongkol').hide();
     $('#BoxTongkol').click(function(){
         $('#ikantongkol').show();
-        // $("html, body").animate({
-        //     scrollTop: $("#flora").offset().top
-        // }, 2000);
+        $("html, body").animate({
+            scrollTop: $("#ikantongkol").offset().top
+        }, 2000);
 
         $('#bungabangkai').hide();
         $('#pohonsantigi').hide();
@@ -290,9 +290,9 @@ $(document).ready(function(){
     $('#TebingPanenjoan').hide();
     $('#BoxPanenjoan').click(function(){
         $('#TebingPanenjoan').show();
-        // $("html, body").animate({
-        //     scrollTop: $("#flora").offset().top
-        // }, 2000);
+        $("html, body").animate({
+            scrollTop: $("#TebingPanenjoan").offset().top
+        }, 2000);
 
         $('#bungabangkai').hide();
         $('#pohonsantigi').hide();
@@ -316,9 +316,9 @@ $(document).ready(function(){
     $('#PantaiPalangpang').hide();
     $('#BoxPalangpang').click(function(){
         $('#PantaiPalangpang').show();
-        // $("html, body").animate({
-        //     scrollTop: $("#flora").offset().top
-        // }, 2000);
+        $("html, body").animate({
+            scrollTop: $("#PantaiPalangpang").offset().top
+        }, 2000);
 
         $('#bungabangkai').hide();
         $('#pohonsantigi').hide();
@@ -342,9 +342,9 @@ $(document).ready(function(){
     $('#CurugSodong').hide();
     $('#BoxSodong').click(function(){
         $('#CurugSodong').show();
-        // $("html, body").animate({
-        //     scrollTop: $("#flora").offset().top
-        // }, 2000);
+        $("html, body").animate({
+            scrollTop: $("#CurugSodong").offset().top
+        }, 2000);
 
         $('#bungabangkai').hide();
         $('#pohonsantigi').hide();
@@ -367,9 +367,9 @@ $(document).ready(function(){
     $('#PantaiCipanarikan').hide();
     $('#BoxCipanarikan').click(function(){
         $('#PantaiCipanarikan').show();
-        // $("html, body").animate({
-        //     scrollTop: $("#flora").offset().top
-        // }, 2000);
+        $("html, body").animate({
+            scrollTop: $("#PantaiCipanarikan").offset().top
+        }, 2000);
 
         $('#bungabangkai').hide();
         $('#pohonsantigi').hide();
@@ -392,9 +392,9 @@ $(document).ready(function(){
     $('#KasepuhanSinar').hide();
     $('#BoxKasepuhan').click(function(){
         $('#KasepuhanSinar').show();
-        // $("html, body").animate({
-        //     scrollTop: $("#flora").offset().top
-        // }, 2000);
+        $("html, body").animate({
+            scrollTop: $("#KasepuhanSinar").offset().top
+        }, 2000);
 
         $('#bungabangkai').hide();
         $('#pohonsantigi').hide();
