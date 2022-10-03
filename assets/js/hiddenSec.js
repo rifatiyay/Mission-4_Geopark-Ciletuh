@@ -39,7 +39,125 @@ $(document).ready(function(){
         $("html, body").animate({
             scrollTop: $("#flora").offset().top
         }, 2000);
+
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
+        
+        $('#bantengjawa').hide();
+        $('#burungjulang').hide();
+        $('#babun').hide();
+        $('#katak').hide();
+        $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
     })
+
+    $('#pohonsantigi').hide();
+    $('#boxPohonSantigi').click(function(){
+        $('#pohonsantigi').show();
+        $("html, body").animate({
+            scrollTop: $("#flora").offset().top
+        }, 2000);
+
+        $('#bungabangkai').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
+        
+        $('#bantengjawa').hide();
+        $('#burungjulang').hide();
+        $('#babun').hide();
+        $('#katak').hide();
+        $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
+    })
+
+    $('#padi').hide();
+    $('#boxPadi').click(function(){
+        $('#padi').show();
+        $("html, body").animate({
+            scrollTop: $("#flora").offset().top
+        }, 2000);
+
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
+        
+        $('#bantengjawa').hide();
+        $('#burungjulang').hide();
+        $('#babun').hide();
+        $('#katak').hide();
+        $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
+    })
+
+    $('#BMatahari').hide();
+    $('#boxBungaMatahari').click(function(){
+        $('#BMatahari').show();
+        $("html, body").animate({
+            scrollTop: $("#flora").offset().top
+        }, 2000);
+
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#Mangrove').hide();
+        
+        $('#bantengjawa').hide();
+        $('#burungjulang').hide();
+        $('#babun').hide();
+        $('#katak').hide();
+        $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
+    })
+
+    $('#Mangrove').hide();
+    $('#boxMangrove').click(function(){
+        $('#Mangrove').show();
+        // $("html, body").animate({
+        //     scrollTop: $("#flora").offset().top
+        // }, 2000);
+
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        
+        $('#bantengjawa').hide();
+        $('#burungjulang').hide();
+        $('#babun').hide();
+        $('#katak').hide();
+        $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
+    })
+
 
     // SECTION ISI FAUNA
     $('#bantengjawa').hide();
@@ -49,6 +167,12 @@ $(document).ready(function(){
         //     scrollTop: $("#flora").offset().top
         // }, 2000);
 
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
+        
         $('#burungjulang').hide();
         $('#babun').hide();
         $('#katak').hide();
@@ -67,6 +191,12 @@ $(document).ready(function(){
         // $("html, body").animate({
         //     scrollTop: $("#flora").offset().top
         // }, 2000);
+
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
 
         $('#bantengjawa').hide();
         $('#babun').hide();
@@ -87,6 +217,12 @@ $(document).ready(function(){
         //     scrollTop: $("#flora").offset().top
         // }, 2000);
 
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
+        
         $('#bantengjawa').hide();
         $('#burungjulang').hide();
         $('#katak').hide();
@@ -106,6 +242,12 @@ $(document).ready(function(){
         //     scrollTop: $("#flora").offset().top
         // }, 2000);
 
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
+        
         $('#bantengjawa').hide();
         $('#burungjulang').hide();
         $('#babun').hide();
@@ -124,6 +266,12 @@ $(document).ready(function(){
         // $("html, body").animate({
         //     scrollTop: $("#flora").offset().top
         // }, 2000);
+
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
 
         $('#bantengjawa').hide();
         $('#burungjulang').hide();
@@ -146,6 +294,12 @@ $(document).ready(function(){
         //     scrollTop: $("#flora").offset().top
         // }, 2000);
 
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
+
         $('#bantengjawa').hide();
         $('#burungjulang').hide();
         $('#babun').hide();
@@ -166,6 +320,12 @@ $(document).ready(function(){
         //     scrollTop: $("#flora").offset().top
         // }, 2000);
 
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
+
         $('#bantengjawa').hide();
         $('#burungjulang').hide();
         $('#babun').hide();
@@ -179,13 +339,18 @@ $(document).ready(function(){
 
     })
 
-
     $('#CurugSodong').hide();
     $('#BoxSodong').click(function(){
         $('#CurugSodong').show();
         // $("html, body").animate({
         //     scrollTop: $("#flora").offset().top
         // }, 2000);
+
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
 
         $('#bantengjawa').hide();
         $('#burungjulang').hide();
@@ -206,6 +371,12 @@ $(document).ready(function(){
         //     scrollTop: $("#flora").offset().top
         // }, 2000);
 
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
+
         $('#bantengjawa').hide();
         $('#burungjulang').hide();
         $('#babun').hide();
@@ -224,6 +395,12 @@ $(document).ready(function(){
         // $("html, body").animate({
         //     scrollTop: $("#flora").offset().top
         // }, 2000);
+
+        $('#bungabangkai').hide();
+        $('#pohonsantigi').hide();
+        $('#padi').hide();
+        $('#BMatahari').hide();
+        $('#Mangrove').hide();
 
         $('#bantengjawa').hide();
         $('#burungjulang').hide();
