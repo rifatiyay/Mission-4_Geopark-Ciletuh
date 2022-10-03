@@ -53,6 +53,11 @@ $(document).ready(function(){
         $('#babun').hide();
         $('#katak').hide();
         $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
     })
 
     $('#burungjulang').hide();
@@ -66,6 +71,11 @@ $(document).ready(function(){
         $('#babun').hide();
         $('#katak').hide();
         $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
     })
 
     $('#babun').hide();
@@ -79,6 +89,11 @@ $(document).ready(function(){
         $('#burungjulang').hide();
         $('#katak').hide();
         $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
     })
 
     $('#katak').hide();
@@ -92,6 +107,11 @@ $(document).ready(function(){
         $('#burungjulang').hide();
         $('#babun').hide();
         $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
     })
 
     $('#ikantongkol').hide();
@@ -105,9 +125,86 @@ $(document).ready(function(){
         $('#burungjulang').hide();
         $('#babun').hide();
         $('#katak').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
     })
 
 
     // SECTION ISI WISATA
+    $('#TebingPanenjoan').hide();
+    $('#BoxPanenjoan').click(function(){
+        $('#TebingPanenjoan').show();
+        // $("html, body").animate({
+        //     scrollTop: $("#flora").offset().top
+        // }, 2000);
+
+        $('#bantengjawa').hide();
+        $('#burungjulang').hide();
+        $('#babun').hide();
+        $('#katak').hide();
+        $('#ikantongkol').hide();
+
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
+
+    })
+
+    $('#CurugSodong').hide();
+    $('#BoxSodong').click(function(){
+        $('#CurugSodong').show();
+        // $("html, body").animate({
+        //     scrollTop: $("#flora").offset().top
+        // }, 2000);
+
+        $('#bantengjawa').hide();
+        $('#burungjulang').hide();
+        $('#babun').hide();
+        $('#katak').hide();
+        $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
+    })
+
+    $('#PantaiCipanarikan').hide();
+    $('#BoxCipanarikan').click(function(){
+        $('#PantaiCipanarikan').show();
+        // $("html, body").animate({
+        //     scrollTop: $("#flora").offset().top
+        // }, 2000);
+
+        $('#bantengjawa').hide();
+        $('#burungjulang').hide();
+        $('#babun').hide();
+        $('#katak').hide();
+        $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#CurugSodong').hide();
+        $('#KasepuhanSinar').hide();
+    })
+
+    $('#KasepuhanSinar').hide();
+    $('#BoxKasepuhan').click(function(){
+        $('#KasepuhanSinar').show();
+        // $("html, body").animate({
+        //     scrollTop: $("#flora").offset().top
+        // }, 2000);
+
+        $('#bantengjawa').hide();
+        $('#burungjulang').hide();
+        $('#babun').hide();
+        $('#katak').hide();
+        $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+    })
 
 })
