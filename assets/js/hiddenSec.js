@@ -55,6 +55,7 @@ $(document).ready(function(){
         $('#ikantongkol').hide();
 
         $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
         $('#CurugSodong').hide();
         $('#PantaiCipanarikan').hide();
         $('#KasepuhanSinar').hide();
@@ -73,6 +74,7 @@ $(document).ready(function(){
         $('#ikantongkol').hide();
 
         $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
         $('#CurugSodong').hide();
         $('#PantaiCipanarikan').hide();
         $('#KasepuhanSinar').hide();
@@ -91,6 +93,7 @@ $(document).ready(function(){
         $('#ikantongkol').hide();
 
         $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
         $('#CurugSodong').hide();
         $('#PantaiCipanarikan').hide();
         $('#KasepuhanSinar').hide();
@@ -109,6 +112,7 @@ $(document).ready(function(){
         $('#ikantongkol').hide();
 
         $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
         $('#CurugSodong').hide();
         $('#PantaiCipanarikan').hide();
         $('#KasepuhanSinar').hide();
@@ -127,6 +131,7 @@ $(document).ready(function(){
         $('#katak').hide();
 
         $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
         $('#CurugSodong').hide();
         $('#PantaiCipanarikan').hide();
         $('#KasepuhanSinar').hide();
@@ -147,11 +152,33 @@ $(document).ready(function(){
         $('#katak').hide();
         $('#ikantongkol').hide();
 
+        $('#PantaiPalangpang').hide();
         $('#CurugSodong').hide();
         $('#PantaiCipanarikan').hide();
         $('#KasepuhanSinar').hide();
 
     })
+
+    $('#PantaiPalangpang').hide();
+    $('#BoxPalangpang').click(function(){
+        $('#PantaiPalangpang').show();
+        // $("html, body").animate({
+        //     scrollTop: $("#flora").offset().top
+        // }, 2000);
+
+        $('#bantengjawa').hide();
+        $('#burungjulang').hide();
+        $('#babun').hide();
+        $('#katak').hide();
+        $('#ikantongkol').hide();
+
+        $('#TebingPanenjoan').hide();
+        $('#CurugSodong').hide();
+        $('#PantaiCipanarikan').hide();
+        $('#KasepuhanSinar').hide();
+
+    })
+
 
     $('#CurugSodong').hide();
     $('#BoxSodong').click(function(){
@@ -167,6 +194,7 @@ $(document).ready(function(){
         $('#ikantongkol').hide();
 
         $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
         $('#PantaiCipanarikan').hide();
         $('#KasepuhanSinar').hide();
     })
@@ -185,6 +213,7 @@ $(document).ready(function(){
         $('#ikantongkol').hide();
 
         $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
         $('#CurugSodong').hide();
         $('#KasepuhanSinar').hide();
     })
@@ -203,6 +232,7 @@ $(document).ready(function(){
         $('#ikantongkol').hide();
 
         $('#TebingPanenjoan').hide();
+        $('#PantaiPalangpang').hide();
         $('#CurugSodong').hide();
         $('#PantaiCipanarikan').hide();
     })
