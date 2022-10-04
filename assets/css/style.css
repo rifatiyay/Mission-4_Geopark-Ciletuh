@@ -439,6 +439,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
+  margin-bottom: 10%;
   font-size: 56px;
   font-weight: 700;
   line-height: 64px;
@@ -452,8 +453,16 @@ h6 {
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.9);
-  margin: 10px 0 0 0;
+  margin: 10px 0 0 0; */
+  /* margin-bottom: 0%; */
   font-size: 24px;
+}
+
+#hero h4 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  margin-bottom: 10%;
+  font-size: 15px;
 }
 
 #hero .icon-box {
