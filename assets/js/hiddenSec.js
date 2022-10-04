@@ -37,7 +37,7 @@ $(document).ready(function(){
     $('#boxBungabangkai').click(function(){
         $('#bungabangkai').show();
         $("html, body").animate({
-            scrollTop: $("bungabangkai").offset().top
+            scrollTop: $("#bungabangkai").offset().top
         }, 100);
 
         $('#pohonsantigi').hide();
