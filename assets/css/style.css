@@ -413,13 +413,9 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-/* #hero {
-  width: 100%;
+#hero {
   height: 100vh;
-  background: url("../img/ciletuh.jpg") top center;
-  background-size: cover;
-  position: relative;
-} */
+}
 
 #hero:before {
   content: "";
@@ -436,20 +432,20 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: -1;
   object-fit: cover;
 }
 
-#videoBG:before{
+ #videoBG:before{
   content: "";
   background: rgba(0, 0, 0, 0.6);
-  position: absolute;
+  position: relative;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-}
+} 
 
 #hero .container {
   position: relative;
