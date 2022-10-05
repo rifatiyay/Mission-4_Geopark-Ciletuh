@@ -453,7 +453,7 @@ h6 {
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.9);
-  margin: 10px 0 0 0; */
+  margin: 10px 0 0 0;
   /* margin-bottom: 0%; */
   font-size: 24px;
 }
@@ -1276,4 +1276,16 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+/* Floating Object */
+.floating-img{
+    transform: translateY(-10%);
+    animation: floater 5s infinite;
+    transition: ease 0.5s;
+}
+  
+@keyframes floater {
+    0%{transform: translateY(-10%);transition: ease 0.5s;}
+    50%{transform: translateY(10%);transition: ease 0.5s;}
 }
