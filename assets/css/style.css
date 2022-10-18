@@ -118,9 +118,7 @@ h6 {
 }
 
 #boxWisata .icon-box{
-  background: url("../img/ciletuh.jpg");
   background-size: cover;
-
 }
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -632,6 +630,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
+
 .article .icon-box .icon {
   margin: 0 auto;
   width: 64px;
@@ -673,6 +672,38 @@ section {
   transform: translateY(-10px);
 }
 
+/*--------------------------------------------------------------
+# box image article
+--------------------------------------------------------------*/
+#boxBungabangkai .icon-box{
+  background: url("../img/galeri/bungabangkaiBG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#boxPohonSantigi .icon-box{
+  background: url("../img/galeri/santigiBG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#boxPadi .icon-box{
+  background: url("../img/galeri/padi2BG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#boxBungaMatahari .icon-box{
+  background: url("../img/galeri/bungamatahari2BG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#boxMangrove .icon-box{
+  background: url("../img/galeri//mangroveBG.jpg");
+  background-size: cover;
+  color: white;
+}
 
 /*--------------------------------------------------------------
 # Portfolio
