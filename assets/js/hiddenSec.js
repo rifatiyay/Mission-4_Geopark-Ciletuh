@@ -31,6 +31,14 @@ $(document).ready(function(){
         }, 100);
     })
 
+    $(window).scroll(function () { 
+        if ($(this).scrollTop() > 600) {
+          $('#header').hide();
+        } else {
+          $('#header').show();
+        }
+      });
+
 
     // SECTION ISI FLORA
     $('#bungabangkai').hide();
