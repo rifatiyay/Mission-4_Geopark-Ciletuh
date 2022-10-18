@@ -1343,3 +1343,9 @@ section {
     0%{transform: translateY(-10%);transition: ease 0.5s;}
     50%{transform: translateY(10%);transition: ease 0.5s;}
 }
+
+@media only screen and (max-width: 600px) {
+  .kata{
+    font-size: 8px!important;
+  }
+}
