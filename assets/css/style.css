@@ -697,7 +697,67 @@ section {
 }
 
 #boxMangrove .icon-box{
-  background: url("../img/galeri//mangroveBG.jpg");
+  background: url("../img/galeri/mangroveBG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#BoxBantengJawa .icon-box{
+  background: url("../img/galeri/bantengjawaBG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#BoxJulangEmas .icon-box{
+  background: url("../img/galeri/julangemasBG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#BoxBabun .icon-box{
+  background: url("../img/galeri/babunBG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#BoxKatak .icon-box{
+  background: url("../img/galeri/katakBG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#BoxTongkol .icon-box{
+  background: url("../img/galeri/ikantongkolBG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#BoxPanenjoan .icon-box{
+  background: url("../img/galeri/tebing-panenjoanBG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#BoxPalangpang .icon-box{
+  background: url("../img/galeri/pantaiPalangpang2BG.jpeg");
+  background-size: cover;
+  color: white;
+}
+
+#BoxSodong .icon-box{
+  background: url("../img/galeri/curugsodongBG.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#BoxKasepuhan .icon-box{
+  background: url("../img/galeri/kasepuhan-sinar-resmiBG.png");
+  background-size: cover;
+  color: white;
+}
+
+#BoxCipanarikan .icon-box{
+  background: url("../img/galeri/Pantai-Cipanarikan2BG.jpg");
   background-size: cover;
   color: white;
 }
