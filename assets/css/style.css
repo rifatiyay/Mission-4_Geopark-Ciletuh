@@ -646,7 +646,7 @@ section {
 /*--------------------------------------------------------------
 # box image article
 --------------------------------------------------------------*/
-/* #boxBungabangkai .icon-box{
+#boxBungabangkai .icon-box{
   background: url("../img/galeri/bungabangkaiBG.jpg");
   background-size: cover;
   color: white;
@@ -734,7 +734,7 @@ section {
   background: url("../img/galeri/Pantai-Cipanarikan2BG.jpg");
   background-size: cover;
   color: white;
-} */
+}
 
 /*--------------------------------------------------------------
 # Portfolio
